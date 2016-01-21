@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenu">
+
+
+
+
+
+
+    <Button
+        android:id="@+id/BrowseClubs"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:text="Browse clubs"
+
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/Quiz"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="Quiz"
+
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/RateMyGround"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="RateMyGround"
+
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/Logout"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:text="Logout"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/Exit"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="Exit"
+        android:layout_height="wrap_content" />
+</LinearLayout>
