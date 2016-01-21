@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenu"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BROWSE CLUBS"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#02010e"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:layout_weight="0.14"
+        android:textSize="@dimen/abc_text_size_display_1_material" />
+
+    <Button
+        android:id="@+id/bArsenal"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:text="Arsenal FC"
+
+        android:layout_height="wrap_content"
+         />
+
+
+
+
+    <Button
+        android:id="@+id/bChelsea"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:text="Chelsea FC"
+        android:layout_height="wrap_content"
+       />
+
+
+    <Button
+        android:id="@+id/bLiverpool"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:text="Liverpool FC"
+
+        android:layout_height="wrap_content"
+         />
+
+
+    <Button
+        android:id="@+id/bManc"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:text="Manchester City"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/bManu"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:text="Manchester United FC"
+        android:layout_height="wrap_content"
+         />
+    <Button
+        android:id="@+id/bQuiz"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:text="Quiz"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bMenu"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:text="Main Menu"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
